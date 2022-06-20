@@ -1,0 +1,3 @@
+[console_scripts]
+pose_subscriber = drone_viz_pkg.pose_subscriber:main
+

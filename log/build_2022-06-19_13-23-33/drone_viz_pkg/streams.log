@@ -1,0 +1,25 @@
+[0.890s] Invoking command in '/home/phillipechavda/droneviz_ws/src/drone_viz_pkg': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_viz_pkg build --build-base /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/build install --prefix /home/phillipechavda/droneviz_ws/install/drone_viz_pkg --record /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/install.log --single-version-externally-managed
+[1.119s] running egg_info
+[1.119s] writing ../../build/drone_viz_pkg/drone_viz_pkg.egg-info/PKG-INFO
+[1.120s] writing dependency_links to ../../build/drone_viz_pkg/drone_viz_pkg.egg-info/dependency_links.txt
+[1.121s] writing entry points to ../../build/drone_viz_pkg/drone_viz_pkg.egg-info/entry_points.txt
+[1.121s] writing requirements to ../../build/drone_viz_pkg/drone_viz_pkg.egg-info/requires.txt
+[1.121s] writing top-level names to ../../build/drone_viz_pkg/drone_viz_pkg.egg-info/top_level.txt
+[1.153s] reading manifest file '../../build/drone_viz_pkg/drone_viz_pkg.egg-info/SOURCES.txt'
+[1.155s] writing manifest file '../../build/drone_viz_pkg/drone_viz_pkg.egg-info/SOURCES.txt'
+[1.155s] running build
+[1.155s] running build_py
+[1.155s] copying drone_viz_pkg/pose_subscriber.py -> /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/build/lib/drone_viz_pkg
+[1.156s] running install
+[1.157s] running install_lib
+[1.158s] copying /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/build/lib/drone_viz_pkg/pose_subscriber.py -> /home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages/drone_viz_pkg
+[1.159s] byte-compiling /home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages/drone_viz_pkg/pose_subscriber.py to pose_subscriber.cpython-38.pyc
+[1.161s] running install_data
+[1.161s] copying package.xml -> /home/phillipechavda/droneviz_ws/install/drone_viz_pkg/share/drone_viz_pkg
+[1.162s] running install_egg_info
+[1.163s] removing '/home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages/drone_viz_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.164s] Copying ../../build/drone_viz_pkg/drone_viz_pkg.egg-info to /home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages/drone_viz_pkg-0.0.0-py3.8.egg-info
+[1.165s] running install_scripts
+[1.179s] Installing pose_subscriber script to /home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/drone_viz_pkg
+[1.179s] writing list of installed files to '/home/phillipechavda/droneviz_ws/build/drone_viz_pkg/install.log'
+[1.206s] Invoked command in '/home/phillipechavda/droneviz_ws/src/drone_viz_pkg' returned '0': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/drone_viz_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/drone_viz_pkg build --build-base /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/build install --prefix /home/phillipechavda/droneviz_ws/install/drone_viz_pkg --record /home/phillipechavda/droneviz_ws/build/drone_viz_pkg/install.log --single-version-externally-managed

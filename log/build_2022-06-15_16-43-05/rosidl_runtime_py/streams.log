@@ -1,0 +1,18 @@
+[1.389s] Invoking command in '/home/phillipechavda/droneviz_ws/src/rosidl_runtime_py': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build install --prefix /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py --record /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed
+[1.614s] running egg_info
+[1.615s] writing ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/PKG-INFO
+[1.616s] writing dependency_links to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/dependency_links.txt
+[1.617s] writing top-level names to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/top_level.txt
+[1.647s] reading manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[1.648s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[1.648s] running build
+[1.649s] running build_py
+[1.649s] running install
+[1.650s] running install_lib
+[1.652s] running install_data
+[1.653s] running install_egg_info
+[1.656s] removing '/home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py-0.10.0-py3.8.egg-info' (and everything under it)
+[1.656s] Copying ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info to /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py-0.10.0-py3.8.egg-info
+[1.657s] running install_scripts
+[1.676s] writing list of installed files to '/home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log'
+[1.711s] Invoked command in '/home/phillipechavda/droneviz_ws/src/rosidl_runtime_py' returned '0': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build install --prefix /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py --record /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed

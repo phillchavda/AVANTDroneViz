@@ -1,0 +1,46 @@
+[1.429s] Invoking command in '/home/phillipechavda/droneviz_ws/src/rosidl_runtime_py': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build install --prefix /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py --record /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed
+[1.641s] running egg_info
+[1.641s] creating ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info
+[1.642s] writing ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/PKG-INFO
+[1.642s] writing dependency_links to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/dependency_links.txt
+[1.643s] writing top-level names to ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/top_level.txt
+[1.643s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[1.672s] reading manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[1.673s] writing manifest file '../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info/SOURCES.txt'
+[1.673s] running build
+[1.673s] running build_py
+[1.673s] creating /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build
+[1.674s] creating /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib
+[1.674s] creating /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.674s] copying rosidl_runtime_py/__init__.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.674s] copying rosidl_runtime_py/import_message.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.674s] copying rosidl_runtime_py/utilities.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.675s] copying rosidl_runtime_py/set_message.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.675s] copying rosidl_runtime_py/convert.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.675s] copying rosidl_runtime_py/get_interfaces.py -> /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py
+[1.675s] running install
+[1.676s] running install_lib
+[1.678s] creating /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/__init__.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/import_message.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/utilities.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/set_message.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/convert.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] copying /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build/lib/rosidl_runtime_py/get_interfaces.py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py
+[1.678s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/__init__.py to __init__.cpython-38.pyc
+[1.679s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/import_message.py to import_message.cpython-38.pyc
+[1.680s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/utilities.py to utilities.cpython-38.pyc
+[1.680s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/set_message.py to set_message.cpython-38.pyc
+[1.681s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/convert.py to convert.cpython-38.pyc
+[1.682s] byte-compiling /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py/get_interfaces.py to get_interfaces.cpython-38.pyc
+[1.683s] running install_data
+[1.684s] copying package.xml -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/share/rosidl_runtime_py
+[1.684s] creating /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/share/ament_index
+[1.684s] creating /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/share/ament_index/resource_index
+[1.684s] creating /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/share/ament_index/resource_index/packages
+[1.684s] copying resource/rosidl_runtime_py -> /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/share/ament_index/resource_index/packages
+[1.684s] running install_egg_info
+[1.686s] Copying ../../build/rosidl_runtime_py/rosidl_runtime_py.egg-info to /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl_runtime_py-0.10.0-py3.8.egg-info
+[1.686s] running install_scripts
+[1.701s] writing list of installed files to '/home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log'
+[1.743s] Invoked command in '/home/phillipechavda/droneviz_ws/src/rosidl_runtime_py' returned '0': PYTHONPATH=/home/phillipechavda/droneviz_ws/install/rosidl_runtime_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rosidl_runtime_py build --build-base /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/build install --prefix /home/phillipechavda/droneviz_ws/install/rosidl_runtime_py --record /home/phillipechavda/droneviz_ws/build/rosidl_runtime_py/install.log --single-version-externally-managed

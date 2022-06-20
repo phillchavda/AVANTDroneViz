@@ -1,0 +1,22 @@
+[0.000000] (-) TimerEvent: {}
+[0.001453] (drone_viz_pkg) JobQueued: {'identifier': 'drone_viz_pkg', 'dependencies': OrderedDict()}
+[0.001570] (rosidl_runtime_py) JobQueued: {'identifier': 'rosidl_runtime_py', 'dependencies': OrderedDict()}
+[0.001621] (drone_viz_pkg) JobStarted: {'identifier': 'drone_viz_pkg'}
+[0.018723] (rosidl_runtime_py) JobStarted: {'identifier': 'rosidl_runtime_py'}
+[0.097585] (-) TimerEvent: {}
+[0.198161] (-) TimerEvent: {}
+[0.298673] (-) TimerEvent: {}
+[0.399260] (-) TimerEvent: {}
+[0.499742] (-) TimerEvent: {}
+[0.600245] (-) TimerEvent: {}
+[0.701178] (-) TimerEvent: {}
+[0.801916] (-) TimerEvent: {}
+[0.902375] (-) TimerEvent: {}
+[1.002782] (-) TimerEvent: {}
+[1.103215] (-) TimerEvent: {}
+[1.203660] (-) TimerEvent: {}
+[1.304331] (-) TimerEvent: {}
+[1.374447] (drone_viz_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 59, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 142, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 5, in <module>\n    setup(\n  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 144, in setup\n    return distutils.core.setup(**attrs)\n  File "/usr/lib/python3.8/distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 707, in parse_command_line\n    result = _Distribution.parse_command_line(self)\n  File "/usr/lib/python3.8/distutils/dist.py", line 480, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1092, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/usr/lib/python3.8/distutils/dist.py", line 683, in handle_display_options\n    self.print_commands()\n  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 843, in print_commands\n    cmdclass = ep.resolve()\n  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2451, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/home/phillipechavda/.local/lib/python3.8/site-packages/sphinx/setup_command.py", line 20, in <module>\n    from sphinx.application import Sphinx\n  File "/home/phillipechavda/.local/lib/python3.8/site-packages/sphinx/application.py", line 42, in <module>\n    from sphinx.registry import SphinxComponentRegistry\n  File "/home/phillipechavda/.local/lib/python3.8/site-packages/sphinx/registry.py", line 24, in <module>\n    from sphinx.builders import Builder\n  File "/home/phillipechavda/.local/lib/python3.8/site-packages/sphinx/builders/__init__.py", line 26, in <module>\n    from sphinx.util import import_object, logging, rst, progress_message, status_iterator\n  File "/home/phillipechavda/.local/lib/python3.8/site-packages/sphinx/util/rst.py", line 22, in <module>\n    from jinja2 import environmentfilter\nImportError: cannot import name \'environmentfilter\' from \'jinja2\' (/home/phillipechavda/.local/lib/python3.8/site-packages/jinja2/__init__.py)\n\n'}
+[1.375241] (drone_viz_pkg) JobEnded: {'identifier': 'drone_viz_pkg', 'rc': 1}
+[1.377746] (rosidl_runtime_py) JobEnded: {'identifier': 'rosidl_runtime_py', 'rc': 'SIGINT'}
+[1.390202] (-) EventReactorShutdown: {}
